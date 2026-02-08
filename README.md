@@ -36,3 +36,10 @@ This repository helps to report wtsexporter bugs for Android
     - ii. `./puller.sh` to pull encrypted backup from the phone to the machine
     - iii. `./extractor.sh` to extract and format the backup data as html in folder `result`
 
+
+### > [!NOTE]
+
+This repository can probably be done better.
+If you have suggestions - do open tickets and send PRs.
+
+See ya around :)
