@@ -1,11 +1,20 @@
 # wtse-bug-reproduce-fedora43
 
-This for Android bug reproduction
+This repository helps to report wtsexporter bugs for Android
 
 0. It is assumed:
-    - WhatsApp is set up to use end-to-end encryption using 64 bit hex key and the user knows it
-    - User knows how to use adb, it is set up, connected to the phone, the connection is authorized and the user knows the adb Id
-    - User knowns their country's phone code (1-3 digits long) 
+    - WhatsApp is already set up to:
+        - backup automatically else-where
+        - backups are encrypted with end-to-end encryption using 64 bit hex key
+        - the user knows they hex key
+    - adb:
+        - is installed and configured
+        - the user knows how to use it
+        - the Android phone is up and connected to the machine
+        - the connection is authorized
+        - (optional) the user knows phone's adb Id
+    - contacts used in the conversations are stored in `contacts.vcf`
+    - the user knowns their country's phone code (1-3 digits long) 
 1. Clone:
     ```bash
         ```!bash
