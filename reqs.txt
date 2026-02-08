@@ -1,0 +1,2 @@
+whatsapp-chat-exporter[crypt15]==0.13.0
+ptpython
